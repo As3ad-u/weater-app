@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Weather APP</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="searchInput" id="searchInput" placeholder="Enter City Name" spellcheck="false">
+            <button class="searchIcon" id="searchIcon"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <img src="./images/rain.png" class="weatherIcon">
+            <h1 class="temp"><span class="degree">22</span>°C</h1>
+            <h2 class="city">Cairo</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity"><span class="humidityDegree">50</span>%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+
+                    <div>
+                        <p class="wind"><span class="windDegree">15</span> km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
